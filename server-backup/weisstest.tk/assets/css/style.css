@@ -1,0 +1,31 @@
+#hello:hover{
+    color: #999;
+}
+body {
+    padding-top: 65px;
+}
+input{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+input[type="submit"]{
+    margin-top: -1px;
+}
+h2{
+    margin-bottom: 20px;
+
+}
+table{
+    font-size: 1em;
+}
+@media screen and (max-width: 1200px){
+    .c-form-add form input{
+        width: 100%!important;
+    }
+    .c-form-add form input[type='submit'] {
+        width: 49% !important;
+    }
+}
+
+
